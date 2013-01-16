@@ -5,18 +5,12 @@
     <title>{{ page.title }}</title>
   </head>
   <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600italic' rel='stylesheet' type='text/css'>
-  <style type="text/css">
-    body{
-      font-family: 'Crimson Text', serif;
-      font-size: 18px;
-      margin: 1em 2em;
-    }
-    p{
-      width:37em;
-      margin: 1em auto;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen">
   <body>
-    {{ content }}
+    <div class="container">
+      <a class="home" href="/"><h1>Semisynthetic</h1></a>
+      {{ content }}
+    </div>
   </body>
 </html>

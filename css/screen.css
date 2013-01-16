@@ -1,0 +1,22 @@
+body{
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  padding: 1em 2em;
+}
+
+a {
+  color: #339;
+  text-decoration: none;
+}
+a.home { color: #000; }
+
+h4 {
+  margin:0;
+  color: #AAA;
+  font-style: italic;
+}
+
+.container{
+  max-width:36em;
+  margin: 1em auto;
+}

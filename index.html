@@ -2,15 +2,6 @@
 layout: default
 title: Semisynthetic
 ---
-
-<h1>Semisynthetic</h1>
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-<a href="https://github.com/bigbento">Github</a>
+{% for post in site.posts %}
+  {{ post.content }}
+{% endfor %}
