@@ -10,6 +10,15 @@ a {
 }
 a.home { color: #000; }
 
+h1 { margin-bottom: 0.3em; }
+
+h1 span.initials {
+  color: #666;
+  font-size: 0.5em;
+  float: right;
+  line-height: 3em;
+}
+
 h4 {
   margin:0;
   color: #AAA;
@@ -17,6 +26,21 @@ h4 {
 }
 
 .container{
-  max-width:36em;
+  max-width: 36em;
   margin: 1em auto;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li { display: inline; }
+
+.nav li.about { float: right; }
+
+
+@media (max-width: 320px) {
+  body { padding: 1em; }
 }

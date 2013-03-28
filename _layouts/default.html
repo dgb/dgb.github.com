@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600italic' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen">
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -19,7 +20,15 @@
   </head>
   <body>
     <div class="container">
-      <a class="home" href="/"><h1>Semisynthetic</h1></a>
+      <h1>
+        <a class="home" href="/">Semisynthetic</a>
+        <span class="initials">dgb</span>
+      </h1>
+      <ul class="nav">
+        <li><a href="https://github.com/bigbento"><i class="icon-github icon-large"></i></a>
+        <li><a href="https://twitter.com/bigbento"><i class="icon-twitter icon-large"></i></a>
+        <li><a href="https://instagram.com/expresstracks"><i class="icon-camera-retro icon-large"></i></a>
+      </ul>
       {{ content }}
     </div>
   </body>
