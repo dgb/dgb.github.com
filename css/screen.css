@@ -40,6 +40,14 @@ ul.nav {
 
 .nav li.about { float: right; }
 
+img { width: 100%; }
+
+.caption {
+  margin-top: 0;
+  font-style: italic;
+  color: #AAA;
+  text-align: center;
+}
 
 @media (max-width: 320px) {
   body { padding: 1em; }
