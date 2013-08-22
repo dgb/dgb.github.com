@@ -32,6 +32,13 @@ img { width: 100%; }
   margin: 1em auto;
 }
 
+.cover {
+  width: 100%;
+  margin-top: 1em;
+  border: 1px solid #CCC;
+  border-radius: 3pt;
+}
+
 .nav,
 .posts {
   list-style-type: none;
