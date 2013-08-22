@@ -61,6 +61,22 @@ img { width: 100%; }
   text-align: center;
 }
 
+.gist .gist-file {
+  border: none !important;
+  font-family: 'Crimson Text', serif !important;
+}
+
+.gist .gist-file .gist-data {
+  background-color: transparent !important;
+}
+
+.gist .gist-file .gist-meta {
+  font-family: 'Crimson Text', serif !important;
+  text-shadow: none !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
 @media (max-width: 320px) {
   body { padding: 1em; }
 }
