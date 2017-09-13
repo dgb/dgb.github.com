@@ -1,7 +1,7 @@
 body{
   font-family: 'Crimson Text', serif;
-  font-size: 18px;
-  padding: 1em 2em;
+  font-size: 20px;
+  padding: 0 2em;
 }
 
 a {
@@ -12,13 +12,6 @@ a.home { color: #000; }
 
 h1 { margin-bottom: 0.3em; }
 
-h1 span.initials {
-  color: #666;
-  font-size: 0.5em;
-  float: right;
-  line-height: 3em;
-}
-
 h4 {
   margin:0;
   color: #AAA;
@@ -27,17 +20,31 @@ h4 {
 
 img { width: 100%; }
 
+pre {
+  font-size: 16px;
+  overflow: scroll;
+  background-color: #EEE;
+  padding: 1em;
+}
+
 .container{
-  max-width: 36em;
+  max-width: 32em;
   margin: 1em auto;
 }
 
 .cover {
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 1em;
   border: 1px solid #CCC;
   border-radius: 3pt;
 }
+
+.initials,
+.nav {
+  text-align: center;
+}
+
 
 .nav,
 .posts {
