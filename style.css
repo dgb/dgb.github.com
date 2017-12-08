@@ -1,0 +1,9 @@
+body {
+  font-family: "Crimson Text";
+  max-width: 24em;
+  margin: 1em auto;
+}
+
+.coffee {
+  text-align: center;
+}
