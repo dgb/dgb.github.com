@@ -4,13 +4,15 @@ title: Derek's Site
 ---
 <h1>Latest Entries</h1>
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.image %}
       <a href="{{ post.url }}">
         <img class="thumb-small" src="/assets/images/{{ post.image }}-thumb-small.jpg"}}>
       </a>
+      {% endif %}
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
