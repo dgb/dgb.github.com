@@ -49,7 +49,8 @@ in the gem, stating only `Recompile with libsass`. And yes, it's true
 the ruby `sass` gem is now deprecated in favor of `libsass`, but that
 didn't seem like a particularly great reason to yank a dependency and
 release such a huge change as a patch release. It was at this point that
-my curiosity escalated to alarm.
+my curiosity escalated to alarm, leading to the Slack message
+introducing this post.
 
 Thankfully `bootstrap-sass` is a very small gem, and I found the
 offending code pretty quickly with a crude and manual "diff". The red
